@@ -28,31 +28,43 @@ h4{
     margin: 0px;
     padding: 0px;
 }
+section{
+    margin-bottom:100px;
+}
 .logo{
     float: left;
 
 }
 
-.nav{
+.manubar{
     background:rgb(102, 30, 2); 
     text-align: center;  
-    padding:5px 30px; 
-    position: fixed;
-    top: 1px;
-    width: 100%;
+    padding:5px 0px; 
+      width: 100%;
 }
-.nav ul{
+.manu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:20px 0px;
+}
+
+.list-manu nav ul{
     display:inline-flex;
    
 }
-.nav ul li{
+.list-manu nav ul li{
     display:inline-flex;
     margin-left: 20px;
-  
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
     
 }
-.nav ul li a{
+.list-manu nav ul li a{
     padding: 10px;
     color:rgb(245, 165, 17);
     font-size: 20px;
@@ -60,7 +72,7 @@ h4{
     text-decoration: none;
     
 }
-.nav ul li a:hover{
+.list-manu nav ul li a:hover{
     padding: 10px;
     color:rgb(219, 168, 73);
     font-size: 20px;
@@ -91,24 +103,26 @@ h4{
 .hero{
      
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background-color:#010001;
-    width: 100%;
     height: 600px;
       
 }
 .vid{
-    width:80%;
-   height:80%;
-   margin-top:50px;
-   
-   
-   
-  
-    
+ display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+}
+.video{
+    width:100%;
 }
 .hero-title{
- padding:0px 0px;
- margin-top:200px; 
+display: flex;
+justify-content: center;
+align-items: center;
         
 }
 .hero-title h1{
@@ -116,7 +130,7 @@ h4{
     font-size: 50px;      
        
    }
-   .hero-title h2{
+.hero-title h2{
     color:rgb(234, 238, 17); 
     font-size: 35px; 
     margin-bottom:30px;      
@@ -126,8 +140,7 @@ h4{
     font-family: 'Dancing Script', cursive;
     color:goldenrod; 
     font-size:50px;
-
-    
+  
 }
 .hbtn{
     padding: 10px;
@@ -137,41 +150,275 @@ h4{
     font-size: 20px;
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
-    width:200px;
-   
+    
 }
 .hbtn1{
     background-color:rgb(248, 194, 14);
     color:black;
     width:200px;
     margin-left:20px;   
+ }
+.product{
+   margin: auto;
 
   
 }
-.nav{
+.product1{
+    width:320px;
+  margin-left: 50px;
+    text-align: center;
+    float: left;
+                                                                             
+}
+.product1 img{
+    width:100%;
+}
+.product1 h4{
+   margin-bottom: 30px;
+}
+.product1 p{
+    margin-bottom: 10px;
+    overflow-y: scroll;
+ }
+
+
+
+.img-text{
+   
+}
+.text{
+    float: left;
     
 }
-.nav{
+.pro{
+    align-items: center;
+    display: flex;
     
 }
-.nav{
+
+.pbtn{
+    padding: 10px;
+    color:black;
+    background-color:rgb(245, 165, 17);
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+}
+.img-text{
+    background: #b78f6b36;
+  
+}
+.dimg-text{
+    display: flex;
+    margin: auto;
+    margin-top: 100px ;
+
+}
+.text{
+  margin: auto;
+  text-align: center;
+  width:50%;
+ 
+}
+.text p{
+    width:80%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.tbtn{
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+    background-color:rgb(245, 165, 17);
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+   
+   
+}
+
+.timg{
+   margin: auto;
+}
+.img{
+    height:350px;
+    width:100%;
     
 }
-.nav{
+.c-table{
+    background-image:url(images/Homeproduct3_600x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    padding: 50px 0px;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    width: 60%;  
+
+}
+tbody{
     
 }
-.nav{
+table tbody,tr,th,td{
+    border: 1px solid black;
+    padding: 20px;
+    background: #efa92836;
+    color:white;
     
 }
-.nav{
+ tr,td{
+    font-size: 20px;
+}
+th{
+    font-size:25px;
+}
+td h5{
+    font-size: 20px;
+}
+
+.tbimg{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.blog{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+article{
+    margin: auto;
+    margin-top: 50px;
+}
+
+.article1{
+   margin-left: 50px;
+    float: left;
+    width: 320px;
+    text-align: center;
     
 }
-.nav{
+.article1 img{
     
 }
-.nav{
+.article1 p{
+    font-size:18px;
+    margin-top: 20px;
+  
     
 }
-.nav{
+.aimg1{
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    
+}
+.aimg2{
+    width:320px;
+    height:320px;
+    border-radius: 50%;
+}
+.aimg3{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    background: rgb(245, 165, 17);
+    padding: 50px 0px;
+    
+}
+.contact-form{
+     margin: auto;
+     width: 40%;
+     text-align: center;
+   
+}
+.form-input input{
+    width:94%;
+    padding: 20px 20px ;
+    margin-top: 20px;
+
+    
+}
+fieldset{
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0px;
+    margin-top: 30px;
+    border:2px solid black ;
+}
+input#gift,input#Price-bon {
+
+    margin: 0px 10px;
+}
+input#White,input#Dark,input#blak {
+    margin: 0px 10px;
+} 
+legend {
+    text-align: center;
+    font-size: 30px;
+}
+.foot1{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #661e02;
+    padding:50px 0px;
+    
+    
+}
+.foot-p{
+    color: gold;
+    font-size: 20px;
+}
+.footer-manu{
+    display: flex;    
+    justify-content: space-around;
+    
+}
+.footer-manu li{
+    
+    list-style: none;
+    padding: 20px 20px;
+}
+.footer-manu li a{         
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: gold;
+    
+}
+
+.footer-form h3{
+    color: gold;
+    
+}
+.footer-form input{
+    width: 100%;
+    border: 2px solid gold;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+.foot-btn{
+    padding: 10px;
+    color:black;
+    background-color:rgb(245, 165, 17);
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+.copy{
+    background: #010001;
+    color:gold;
+    text-align: center;
     
 }
